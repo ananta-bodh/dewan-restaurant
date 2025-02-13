@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*-----header-------*/
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+header div{
+    height: 8rem;
+    box-sizing: content-box;
+}
+header div img{
+    height: 100%;
+}
+
+
+/*------navbar------*/
+#navbar{
+    display: flex;
+    justify-content: end;
+    padding-right: 2rem;
+}
+.nav-list{
+    list-style-type: none;
+    margin-left: 3rem;
+}
+.nav-list a{
+    text-decoration: none;
+}
+
+
+/*-----main-------*/
+main{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+}
+.container a{
+    text-decoration: none;
+}
+
+/*------main1-------*/
+.container{
+    padding: 0.5rem;
+}
+.div-content1{
+    background-color: cadetblue;
+    padding: 1.5rem;
+    border-radius: 5%;
+    text-align: center;
+    display: inline-block;
+    height: 15rem;
+    width: 15rem;
+}
+.div-con1-img{
+    height: 13rem;
+}
+.div-con1-img img{
+    height: 100%;
+    border-radius: 5%;
+}
+.div-con1-text{
+    text-align: center;
+}
+.name-con1{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.price{
+    color: red;
+    font-size: 1.1rem;
+}
+.name{
+    font-size: 1.1rem;
+    color: aliceblue;
+}
+.rate{
+    font-size: 1.1rem;
+    color: aliceblue;
+}
+
+
+/*------breveges/snacks------*/
+.sec-con{
+    padding: 0.7rem;
+    background-color: rgb(0, 3, 5);
+}
+.sec-text{
+    padding: 1.5rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+.sec-div{
+    padding: 1.5rem;
+    background-color: rgb(46, 51, 51);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 4;
+    gap: 2rem;
+}
+.sec-div-a{
+    text-decoration: none;
+}
+.sec-div-a:hover{
+    position: relative;
+    background-color: rgb(2, 103, 103);
+    color: black;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.snack{
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.snack img{
+    height: 100%;
+    border-radius: 5%;
+}
+.sec-div-text
+.s-name{
+    color: aliceblue;
+}
+.s-price{
+    color: aliceblue;
+}
+
+
+/*-----benefits of dewan restaurant-------*/
+.benefit{
+    text-align: left;
+}
+.benefit-head{
+    padding: 2.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.benefit-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.benefit-container1, .benefit-container2, .benefit-container3{
+    border-top: 1px solid black;
+    height: 100%;
+}
+.benefit-container1, .benefit-container2{
+    border-right: 1px solid black;
+}
+.b-c-img{
+    text-align: center;
+    height: 7rem;
+}
+.b-c-img img{
+    height: 100%;
+}
+.b-c-h2{
+    font-size: 1rem;
+    text-align: center;
+}
+.b-c-p{
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+.benefit-a{
+    text-align: center;
+    padding: 1.5rem;
+}
+.benefit-information{
+    padding: 5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+.b-info{
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+.b-div-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.b-div-content p{
+    color: rgb(67, 63, 63);
+}
+.b-div-content p a{
+    text-decoration: none;
+}
+
+
+/*------footer------*/
+footer{
+    background-color: azure;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5rem;
+}
